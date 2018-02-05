@@ -10,11 +10,11 @@
 export const environment = {
 production: false,
 firebase:{
-apiKey: "AIzaSyBBc-8eBy8VFkBLRdIQ6UJcUU-y8fEe5RM",
-authDomain: "midtermexam-1b687.firebaseapp.com",
-databaseURL: "https://midtermexam-1b687.firebaseio.com",
-projectId: "midtermexam-1b687",
-storageBucket: "midtermexam-1b687.appspot.com",
-messagingSenderId: "915613745079"
+apiKey: "AIzaSyAEviF-oEFYFmKQ-ylpgkB2xyGRyULNZoo",
+    authDomain: "midtermproject-b098a.firebaseapp.com",
+    databaseURL: "https://midtermproject-b098a.firebaseio.com",
+    projectId: "midtermproject-b098a",
+    storageBucket: "",
+    messagingSenderId: "598748447449"
 }
 };
