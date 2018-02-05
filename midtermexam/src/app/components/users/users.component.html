@@ -1,3 +1,12 @@
-<div class="container">
-	<app-items></app-items>
+<div *ngIf="users?.length > 0;else noUsers">
+<ul *ngFor="let user of users" class="collection">
+<li class="collection-user"><strong>{{users.firstname}}: </strong> {{users.lastname}}</li>
+
+</ul>
 </div>
+
+
+<ng-template #noUsers>
+<hr>
+<h5>There are no Users in the list</h5>
+</ng-template>

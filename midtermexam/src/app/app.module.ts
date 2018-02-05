@@ -8,6 +8,8 @@ import { AngularFireStoreModule } from 'angularfire2/firestore';
 import { AppComponent } from './app.component';
 import { UsersComponent } from './components/users/users.component';
 
+import { UserService } from './services/user.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,7 @@ import { UsersComponent } from './components/users/users.component';
 	AngularFireModule.initializeApp(environment.firebase, 'angularfs'),
 	AngularFirestoreModule
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
